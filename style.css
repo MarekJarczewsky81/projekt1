@@ -452,8 +452,7 @@ footer {
     .work-img {
         max-width: 100%;
         height: 150%;
-        position: relative;
-        /* scale: (-2); */
+        position: relative;    
     }
 
     .page-title {
@@ -470,7 +469,6 @@ footer {
         max-width: 100%;
         height: 150%;
         position: relative;
-        /* scale: (-2); */
     }
 
     body {
@@ -483,11 +481,9 @@ footer {
         margin-top: 40px;
     }
 
+    .work-text {
+        font-size: 12px; 
+    }
     
 }
 
-@media (max-width: 1132px) {
-    body {
-        /* font-size: 15px; */
-    }
-}
