@@ -170,7 +170,7 @@ czerwonego (#ff5252)
 .services {
     padding: 96px 0;
     background-color: #ffffff;
-    font-color: #2c2c54;
+    color: #2c2c54;
 }
 
 
@@ -198,14 +198,14 @@ h3 {
 }
 
 .service {
-  /* border: 1px solid #dee2e6; */
-  padding: 24px;
-  text-align: center;
-  position: relative;
+    /* border: 1px solid #dee2e6; */
+    padding: 24px;
+    text-align: center;
+    position: relative;
 }
 
 
-.service .number { 
+.service .number {
     font-family: 'Signika';  
     position: absolute;
     top: 10px;
@@ -217,16 +217,16 @@ h3 {
 }
 
 .service h4 {
-  font-size: 24px;
-  font-weight: 700;
-  margin: 0 0 12px 0;
-  text-align: left;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 12px 0;
+    text-align: left;
 }
 
 .service p {
-  font-size: 16px;
-  font-weight: 300;
-  text-align: left;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
 }
 
 .first-of-type {
@@ -454,8 +454,10 @@ footer {
         height: 150%;
         position: relative;
     }
-    
 
+    .page-title {
+        font-size: 50px;  
+    }
 }
 
 @media screen and (min-width: 767px) and (max-width: 1132px) {
